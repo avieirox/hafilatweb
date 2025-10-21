@@ -1,0 +1,6 @@
+version: 1
+
+static_sites:
+  - name: hafilatweb
+    build_command: npm run build
+    publish_dir: dist
